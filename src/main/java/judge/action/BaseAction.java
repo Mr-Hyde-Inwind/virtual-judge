@@ -15,7 +15,7 @@ import judge.remote.provider.codeforcesgym.CodeForcesGymInfo;
 import judge.remote.provider.csu.CSUInfo;
 import judge.remote.provider.fzu.FZUInfo;
 import judge.remote.provider.hdu.HDUInfo;
-import judge.remote.provider.hust.HUSTInfo;
+//import judge.remote.provider.hust.HUSTInfo;
 import judge.remote.provider.hysbz.HYSBZInfo;
 import judge.remote.provider.lightoj.LightOJInfo;
 import judge.remote.provider.nbut.NBUTInfo;
@@ -23,9 +23,9 @@ import judge.remote.provider.poj.POJInfo;
 import judge.remote.provider.scu.SCUInfo;
 import judge.remote.provider.sgu.SGUInfo;
 import judge.remote.provider.spoj.SPOJInfo;
-import judge.remote.provider.tyvj.TyvjInfo;
+//import judge.remote.provider.tyvj.TyvjInfo;
 import judge.remote.provider.uestc.UESTCInfo;
-import judge.remote.provider.uestc_old.UESTCOldInfo;
+//import judge.remote.provider.uestc_old.UESTCOldInfo;
 import judge.remote.provider.ural.URALInfo;
 import judge.remote.provider.uva.UVAInfo;
 import judge.remote.provider.uvalive.UVALiveInfo;
@@ -61,7 +61,7 @@ public class BaseAction extends ActionSupport implements ParameterAware {
         OJList.add(UVALiveInfo.INFO);
         OJList.add(SGUInfo.INFO);
         OJList.add(URALInfo.INFO);
-        OJList.add(HUSTInfo.INFO);
+        //OJList.add(HUSTInfo.INFO);
         OJList.add(SPOJInfo.INFO);
         OJList.add(HDUInfo.INFO);
         OJList.add(HYSBZInfo.INFO);
@@ -71,14 +71,14 @@ public class BaseAction extends ActionSupport implements ParameterAware {
         OJList.add(ZTreningInfo.INFO);
         OJList.add(AizuInfo.INFO);
         OJList.add(LightOJInfo.INFO);
-        OJList.add(UESTCOldInfo.INFO);
+        //OJList.add(UESTCOldInfo.INFO);
         OJList.add(UESTCInfo.INFO);
         OJList.add(NBUTInfo.INFO);
         OJList.add(FZUInfo.INFO);
         OJList.add(CSUInfo.INFO);
         OJList.add(SCUInfo.INFO);
         OJList.add(ACdreamInfo.INFO);
-        OJList.add(TyvjInfo.INFO);
+        // OJList.add(TyvjInfo.INFO);
         Collections.sort(OJList, new Comparator<RemoteOjInfo>() {
             @Override
             public int compare(RemoteOjInfo oj1, RemoteOjInfo oj2) {

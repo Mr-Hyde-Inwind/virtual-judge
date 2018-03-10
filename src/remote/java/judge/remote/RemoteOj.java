@@ -10,7 +10,7 @@ public enum RemoteOj {
     CSU, //
     FZU, //
     HDU, //
-    HUST, //
+    // HUST, //
     HYSBZ, //
     LightOJ, //
     NBUT, //
@@ -18,9 +18,9 @@ public enum RemoteOj {
     SCU, //
     SGU, //
     SPOJ, //
-    Tyvj,
+    // Tyvj,
     UESTC, //
-    UESTCOld, //
+    // UESTCOld, //
     URAL, //
     UVA, //
     UVALive, //
